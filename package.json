@@ -1,9 +1,27 @@
 {
   "name": "bun-react-template",
-  "version": "0.1.63",
+  "version": "0.1.1",
+  "author": {
+    "name": "Pham Van Khang",
+    "email": "phamvankhang.tvi@gmail.com",
+    "url": "https://phamvankhang.name.vn"
+  },
+  "scripts": {
+    "start": "bun dev",
+    "build": "react-scripts build",
+    "prettier": "prettier -c --write \"**/*\""
+  },
   "dependencies": {
+    "antd": "^5.0.7",
+    "dva": "^2.4.1",
+    "node-sass": "^8.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.5.0",
+    "redux": "^4.2.0",
+    "umi": "2.8.7",
+    "umi-plugin-react": "^1.15.9",
+    "umi-request": "^1.4.0",
     "web-vitals": "^3.0.3"
   },
   "eslintConfig": {
@@ -12,7 +30,9 @@
     ]
   },
   "devDependencies": {
-    "typescript": "latest",
-    "react-refresh": "0.10.0"
+    "bun-types": "^0.3.0",
+    "react-refresh": "0.10.0",
+    "react-scripts": "^5.0.1",
+    "typescript": "latest"
   }
 }

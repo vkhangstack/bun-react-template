@@ -2,12 +2,16 @@
 
 This is a React project bootstrapped with [bun](https://bun.sh/).
 
+## Teacnical project
+
+> Bun version 0.3.0
+
 ## Getting Started
 
 ### Cloning the repo
 
 ```sh
-bun create react ./react-bun-app
+git clone https://github.com/vkhangstack/bun-react-template.git
 ```
 
 ### Development
@@ -15,7 +19,13 @@ bun create react ./react-bun-app
 First, run the development server.
 
 ```
-bun dev
+bun install && bun dev
+```
+
+#### Building
+
+```
+bun build
 ```
 
 Open http://localhost:3000 with your browser to see the result.
